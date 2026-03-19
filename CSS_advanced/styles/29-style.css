@@ -444,6 +444,11 @@ template {
   height: 20%;
 }
 
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
 .header {
   padding: var(--header-padding);
 }
